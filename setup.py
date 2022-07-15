@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='GSEIMIITB',
-    version='1.0',
+    version='1.1',
     # license='MIT',
     # author="Piyush Palav",
     # author_email='piyushdpalav@gmail.com',
@@ -17,4 +17,7 @@ setup(
           'psutil',
           'pyyaml'
       ],
+   scripts=['src/grc/scripts/run_gseim'],
+   data_files=[('bitmaps',['src/grc/gui/icon.png'])
+		],
 )
