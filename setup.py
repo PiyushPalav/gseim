@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='GSEIM',
+    name='GSEIMIITB',
     version='1.0',
     # license='MIT',
     # author="Piyush Palav",
